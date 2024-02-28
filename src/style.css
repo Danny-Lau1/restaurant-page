@@ -16,9 +16,13 @@ header {
     height: 10%;
 }
 
+#content {
+    height: 90%;
+}
+
 #image-container {
     background-image: url('../src/chinese_food.jpg');
-    height: 90%;
+    height: 100%;
     background-size: cover;
 }
 
@@ -77,4 +81,37 @@ button {
 p {
     font-size: 1.2rem;
     color: #13005A;
+}
+
+#food-container {
+    padding-top: 20px;
+    background-color: #FEF9A7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.food-card {
+    background-color: #D21312;
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.food-rows {
+    display: flex;
+    gap: 80px;
+}
+
+.food-card>img {
+    padding-top: 20px;
+    height: 70%;
+    width: 80%;
+}
+
+.food-card>p {
+    color: white;
 }
