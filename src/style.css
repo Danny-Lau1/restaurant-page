@@ -84,8 +84,8 @@ p {
 }
 
 #food-container {
-    padding-top: 20px;
-    background-color: #FEF9A7;
+    padding-top: 30px;
+    background-color: #ebebcd;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +93,7 @@ p {
 }
 
 .food-card {
-    background-color: #D21312;
+    background-color: #b51f09;
     text-align: center;
     height: 300px;
     width: 500px;
@@ -114,4 +114,45 @@ p {
 
 .food-card>p {
     color: white;
+}
+
+#about-page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebcd;
+}
+
+#about-container {
+    display: flex;
+    height: 800px;
+    width: 800px;
+    align-items: center;
+    background-color: #b51f09;
+    border-radius: 12px;
+
+
+}
+
+#about-container>img {
+    padding: 20px;
+}
+
+#about-container p {
+    color: white;
+}
+
+#visit-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebcd;
+
+}
+
+.visit-row {
+    text-align: center;
 }

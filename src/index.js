@@ -1,12 +1,17 @@
 import { createSentences } from "./homepage.js"
 import { createMenu } from "./menu.js"
+import { createAboutPage } from "./about.js"
+import { createVisitUsPage } from "./visit-us.js"
 
 const content = document.getElementById("content")
 const homePage = createSentences()
-const menu = createMenu()
+const menuPage = createMenu()
+const aboutPage = createAboutPage()
+const visitPage = createVisitUsPage()
 
+// initial homepage render
 content.appendChild(homePage)
-//content.appendChild(menu)
+
 
 const navButtons = document.querySelectorAll("button")
 
@@ -18,13 +23,19 @@ navButtons.forEach(button => {
         console.log(pageId)
         content.innerHTML = ""
         if (pageId == "menu") {
-            content.appendChild(menu)
+            content.appendChild(menuPage)
         }
 
         else if (pageId == "home") {
             content.appendChild(homePage)
         }
 
+        else if (pageId == "about") {
+            content.appendChild(aboutPage)
+        }
+        else if (pageId == "visit") {
+            content.appendChild(visitPage)
+        }
     })
 })
 
