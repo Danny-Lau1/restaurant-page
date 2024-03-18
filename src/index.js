@@ -1,3 +1,4 @@
+import './style.css'
 import { createSentences } from "./homepage.js"
 import { createMenu } from "./menu.js"
 import { createAboutPage } from "./about.js"
