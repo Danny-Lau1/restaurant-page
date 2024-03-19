@@ -1,4 +1,4 @@
-import chinese_family from './img/chinese-family.jpg'
+import chinese_family from './img/chinese-family.jpeg'
 
 function createAboutPage() {
     const aboutDiv = document.createElement("div")
