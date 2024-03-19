@@ -1,3 +1,5 @@
+import chinese_family from './img/chinese-family.jpg'
+
 function createAboutPage() {
     const aboutDiv = document.createElement("div")
     aboutDiv.id = "about-page"
@@ -6,7 +8,7 @@ function createAboutPage() {
     aboutContainerDiv.id = "about-container"
 
     const aboutImage = document.createElement("img")
-    aboutImage.src = "../src/img/chinese-family.jpeg"
+    aboutImage.src = chinese_family
 
     const aboutDescription = document.createElement("p")
     aboutDescription.textContent = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, at cumque. Doloribus dolor totam corrupti quaerat quibusdam sint exercitationem magnam quisquam ab porro cumque perspiciatis similique voluptas, mollitia labore provident."
